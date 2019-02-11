@@ -1,0 +1,54 @@
+E:\VP Programs\HRMS\HRMS\bin\Debug\HRMS.exe.config
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.exe
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.pdb
+E:\VP Programs\HRMS\HRMS\bin\Debug\HRMS.exe
+E:\VP Programs\HRMS\HRMS\bin\Debug\HRMS.pdb
+E:\VP Programs\HRMS\HRMS\bin\Debug\Metro.dll
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.csprojResolveAssemblyReference.cache
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.company.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.employee.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.home.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.Form1.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.Properties.Resources.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.splash_form.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.csproj.GenerateResource.Cache
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.paycode.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.rule.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.timetable.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.records.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.calculate.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.datasync.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.zone.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.device_management.resources
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.Myconn.resources
+E:\VP Programs\HRMS\HRMS\bin\Debug\MetroFramework.Design.dll
+E:\VP Programs\HRMS\HRMS\bin\Debug\MetroFramework.dll
+E:\VP Programs\HRMS\HRMS\bin\Debug\MetroFramework.Fonts.dll
+E:\VP Programs\HRMS\HRMS\obj\Debug\HRMS.payslip.resources
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\HRMS.exe.config
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.exe
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.pdb
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.csprojResolveAssemblyReference.cache
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.calculate.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.company.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.datasync.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.device_management.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.employee.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.home.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.Form1.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.Myconn.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.paycode.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.payslip.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.Properties.Resources.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.records.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.rule.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.splash_form.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.timetable.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.zone.resources
+E:\VP Programs\HRMS - Copy\HRMS\obj\Debug\HRMS.csproj.GenerateResource.Cache
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\HRMS.exe
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\HRMS.pdb
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\Metro.dll
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\MetroFramework.Design.dll
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\MetroFramework.dll
+E:\VP Programs\HRMS - Copy\HRMS\bin\Debug\MetroFramework.Fonts.dll

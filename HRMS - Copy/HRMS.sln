@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS", "HRMS\HRMS.csproj", "{2792FFBC-9D07-46D9-8316-FC15FD1540B5}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "HRMS-Setup", "HRMS-Setup\HRMS-Setup.isproj", "{E23FCC3F-4DBF-429B-9396-9183E8ED096B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{2792FFBC-9D07-46D9-8316-FC15FD1540B5}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.Debug|Any CPU.ActiveCfg = DVD-5
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.Debug|Any CPU.Build.0 = DVD-5
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.DVD-5|Any CPU.Build.0 = DVD-5
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.Release|Any CPU.ActiveCfg = SingleImage
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.Release|Any CPU.Build.0 = SingleImage
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{E23FCC3F-4DBF-429B-9396-9183E8ED096B}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

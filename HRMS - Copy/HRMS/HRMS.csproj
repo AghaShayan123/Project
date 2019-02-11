@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2792FFBC-9D07-46D9-8316-FC15FD1540B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRMS</RootNamespace>
+    <AssemblyName>HRMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Metro">
+      <HintPath>..\..\..\Softwares\Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calculate.Designer.cs">
+      <DependentUpon>calculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common_control.cs" />
+    <Compile Include="company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="company.Designer.cs">
+      <DependentUpon>company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datasync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datasync.Designer.cs">
+      <DependentUpon>datasync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="device-management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="device-management.Designer.cs">
+      <DependentUpon>device-management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employee.Designer.cs">
+      <DependentUpon>employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log In.Designer.cs">
+      <DependentUpon>Log In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Myconn.cs" />
+    <Compile Include="Myconn.Designer.cs">
+      <DependentUpon>Myconn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mycontrol.cs" />
+    <Compile Include="mycontrol_calculate.cs" />
+    <Compile Include="mycontrol_company.cs" />
+    <Compile Include="mycontrol_datasync.cs" />
+    <Compile Include="mycontrol_devicemanagement.cs" />
+    <Compile Include="mycontrol_employee.cs" />
+    <Compile Include="mycontrol_paycode.cs" />
+    <Compile Include="mycontrol_record.cs" />
+    <Compile Include="mycontrol_rule.cs" />
+    <Compile Include="mycontrol_timetable.cs" />
+    <Compile Include="mycontrol_zone.cs" />
+    <Compile Include="paycode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paycode.Designer.cs">
+      <DependentUpon>paycode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payslip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payslip.Designer.cs">
+      <DependentUpon>payslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="records.Designer.cs">
+      <DependentUpon>records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rule.Designer.cs">
+      <DependentUpon>rule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splash form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash form.Designer.cs">
+      <DependentUpon>splash form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timetable.Designer.cs">
+      <DependentUpon>timetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zone.Designer.cs">
+      <DependentUpon>zone.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="calculate.resx">
+      <DependentUpon>calculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="company.resx">
+      <DependentUpon>company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datasync.resx">
+      <DependentUpon>datasync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="device-management.resx">
+      <DependentUpon>device-management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee.resx">
+      <DependentUpon>employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log In.resx">
+      <DependentUpon>Log In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Myconn.resx">
+      <DependentUpon>Myconn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paycode.resx">
+      <DependentUpon>paycode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payslip.resx">
+      <DependentUpon>payslip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="records.resx">
+      <DependentUpon>records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rule.resx">
+      <DependentUpon>rule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash form.resx">
+      <DependentUpon>splash form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timetable.resx">
+      <DependentUpon>timetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zone.resx">
+      <DependentUpon>zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssut2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camer-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datasync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign-device.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign-employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculateactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\companyactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exceptionactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scheduleactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shiftactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timetableactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rule-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\devicemanagement-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoneactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datasyncactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recordactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disablehome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paycodeactive-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_88_111104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passsword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\payslip-logo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
